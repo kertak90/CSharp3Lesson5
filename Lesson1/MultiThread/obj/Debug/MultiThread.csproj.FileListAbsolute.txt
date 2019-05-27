@@ -1,0 +1,7 @@
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\bin\Debug\MultiThread.exe.config
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\bin\Debug\MultiThread.exe
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\bin\Debug\MultiThread.pdb
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\obj\Debug\MultiThread.csproj.CoreCompileInputs.cache
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\obj\Debug\MultiThread.exe
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\obj\Debug\MultiThread.pdb
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\MultiThread\obj\Debug\MultiThread.csprojAssemblyReference.cache

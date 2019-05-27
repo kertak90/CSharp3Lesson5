@@ -1,0 +1,2 @@
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\ThreadPool\obj\Debug\ThreadPool.csprojAssemblyReference.cache
+D:\C# projects\C# 3 обучение\git-CSharp3Lesson5\Lesson1\ThreadPool\obj\Debug\ThreadPool.csproj.CoreCompileInputs.cache
