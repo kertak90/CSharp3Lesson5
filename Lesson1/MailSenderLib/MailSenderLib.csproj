@@ -86,6 +86,7 @@
     <Compile Include="Services\Interfaces\IServerData.cs" />
     <Compile Include="Services\Interfaces\ISchedulerTasksData.cs" />
     <Compile Include="Services\Linq2SQL\RecepientsDataLinq2SQL.cs" />
+    <Compile Include="Services\SmtpMailSenderService.cs" />
     <Compile Include="Services\StringEncoder.cs" />
   </ItemGroup>
   <ItemGroup>

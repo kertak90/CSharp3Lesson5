@@ -8,82 +8,61 @@ using System.Threading;
 
 namespace MultiThread
 {
+
+//   1. Написать приложение, считающее в раздельных потоках: 
+//факториал числа N, которое вводится с клавиатуры;
+//    сумму целых чисел до N.
+//   2. * Написать приложение, выполняющее парсинг CSV-файла произвольной структуры и сохраняющего его в обычный txt-файл.Все операции проходят в потоках.CSV-файл заведомо имеет большой объем.
+
+
     class Program
     {
         static void Main(string[] args)
         {
-            //Thread th1 = new Thread(new ThreadStart(myFunc));
-            //th1.IsBackground = true;
-            //th1.Priority = ThreadPriority.Highest;
-            //th1.Start();
+            List<Thread> ThList = new List<Thread>();
+            Thread th1 = new Thread(Factorial);
+            ThList.Add(th1);
+            Thread th2 = new Thread(Sum);
+            ThList.Add(th2);
 
-            //var threads = new List<Thread>();
-            //for(int i=0; i<10; i++)
-            //{
-            //    threads.Add(new Thread(()=> myFunc2($"Message {i}")));                
-            //}
+            Console.WriteLine("Введите целое число: ");
+            int number = Convert.ToInt16(Console.ReadLine());
 
-            //threads.ForEach(t=>t.Start()); 
-
-            //var th3 = new Thread(new ThreadTask { Data = "123"}.ThreadMethod);
-
-            //ThreadPoolTest.Start();
-            //ConcurencyTest.Start();
-
-            ThreadManagment.Start();
-
-            lock (ConcurencyTest._SyncRoot)
+            foreach (var item in ThList)
             {
-                Console.WriteLine("Нажмите Enter");
-                Console.ReadLine();
+                item.Start(number);
             }
-            
-
-            
-        }
-        static bool Do_Work = true;
-
-        static void myFunc()
-        {
-            try
-            {
-                for (var i = 0; Do_Work & i < 100_000; i++)
-                {
-
-                    Thread.Sleep(100);
-                    Console.Title = $"Iteration {i}";
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
+            Console.ReadLine();
         }
 
-        static void myFunc2(object parameter)
+        static void Factorial(object o)
         {
-            var msg = parameter as string ?? throw new ArgumentException("Параметр не является строкой");
-            for (var i = 0; Do_Work & i < 100_000; i++)
+            int n = (int)o;
+            int sum = 1;
+
+            for(int i=1;i<=n;i++)
             {
                 Thread.Sleep(100);
-                Console.WriteLine($"{msg} Current Thread Id {i} {Thread.CurrentThread.ManagedThreadId}");
+                sum *= i;
+                Console.WriteLine($"{i}; factorial:{sum}; Thread:{Thread.CurrentThread.ManagedThreadId}");
             }
+            Console.WriteLine($"Факториал числа {n} равен: {sum}");
         }
-    }
 
-    internal class ThreadTask
-    {
-        public string Data { get; set; }
-
-        public void ThreadMethod()
-        {
-            var data = Data;
-            for (var i = 0; i < 100_000; i++)
+        static void Sum(object o)
+        {            
+            int n = (int)o;
+            int sum = 0;
+            for (int i = 1; i <= n; i++)
             {
                 Thread.Sleep(100);
-                Console.WriteLine($"Message {i} : {data} :Current Thread Id {i} {Thread.CurrentThread.ManagedThreadId}");
+                sum += i;
+                Console.WriteLine($"{i}; sum:{sum}; Thread:{Thread.CurrentThread.ManagedThreadId}");
             }
+            Console.WriteLine($"Сумма чисел {n} равны: {sum}");
         }
+        
     }
+
+    
 }

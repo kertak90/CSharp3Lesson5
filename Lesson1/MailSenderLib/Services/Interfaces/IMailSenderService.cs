@@ -18,5 +18,7 @@ namespace MailSenderLib.Services.Interfaces
         void Send(MailMessage Message, Sender From, Recipient To);
 
         void Send(MailMessage Message, Sender From, IEnumerable<Recipient> To);
+
+        void SendParallel(MailMessage Message, Sender From, IEnumerable<Recipient> To);
     }
 }

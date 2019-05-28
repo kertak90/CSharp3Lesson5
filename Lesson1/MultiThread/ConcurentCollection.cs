@@ -10,7 +10,7 @@ namespace MultiThread
     {
         public static void Start()
         {
-            System.Collections.Concurrent.BlockingCollection<>
+            
         }
     }
 }
