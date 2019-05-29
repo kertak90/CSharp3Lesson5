@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.1/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.1/system/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_Lesson1.-1917605202.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Lesson1" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="Components" t="Include">
+          <e p="Notification.xaml" t="Include" />
+          <e p="Notification.xaml.cs" t="Include" />
+          <e p="TabItemsControl.xaml" t="Include" />
+          <e p="TabItemsControl.xaml.cs" t="Include" />
+        </e>
+        <e p="EmailSendServiceClass.cs" t="Include" />
+        <e p="Lesson2.csproj" t="IncludeRecursive" />
+        <e p="MessageNotification.xaml" t="Include" />
+        <e p="MessageNotification.xaml.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="ValidationRules" t="Include">
+          <e p="regExValidationRule.cs" t="Include" />
+        </e>
+        <e p="View" t="Include">
+          <e p="RecipientsInfoEditor.xaml" t="Include" />
+          <e p="RecipientsInfoEditor.xaml.cs" t="Include" />
+          <e p="RecipientsInfoView.xaml" t="Include" />
+          <e p="RecipientsInfoView.xaml.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="MainWindowViewModel.cs" t="Include" />
+          <e p="ViewModelLocator.cs" t="Include" />
+        </e>
+        <e p="WpfMailSender.xaml" t="Include" />
+        <e p="WpfMailSender.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Lesson1.sln" t="IncludeFlat" />
+      <e p="MailSender.Lib.Tests" t="IncludeRecursive">
+        <e p="MailSender.Lib.Tests.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="InMemory" t="Include">
+            <e p="RecipientsDataInMemoryTests.cs" t="Include" />
+          </e>
+          <e p="StringEncoderTests.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="MailSenderLib" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Data" t="Include">
+          <e p="TestData.cs" t="Include" />
+        </e>
+        <e p="Entityes" t="Include">
+          <e p="Base" t="Include">
+            <e p="BaseEntity.cs" t="Include" />
+            <e p="Human.cs" t="Include" />
+          </e>
+          <e p="MailList.cs" t="Include" />
+          <e p="MailMessage.cs" t="Include" />
+          <e p="RecipientsList.cs" t="Include" />
+          <e p="SchedulerTask.cs" t="Include" />
+          <e p="Sender.cs" t="Include" />
+          <e p="Server.cs" t="Include" />
+        </e>
+        <e p="Linq2SQL" t="Include">
+          <e p="MailSenderDB.dbml" t="Include" />
+          <e p="MailSenderDB.dbml.layout" t="Include" />
+          <e p="MailSenderDB.designer.cs" t="Include" />
+          <e p="Recepient.cs" t="Include" />
+        </e>
+        <e p="MVVM" t="Include">
+          <e p="LambdaCommand.cs" t="Include" />
+          <e p="ViewModel.cs" t="Include" />
+        </e>
+        <e p="MailSenderLib.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="InMemory" t="Include">
+            <e p="DataInMemory.cs" t="Include" />
+            <e p="MailMessageDataInMemory.cs" t="Include" />
+            <e p="MailsListDataInMemory.cs" t="Include" />
+            <e p="RecipientsDataInMemory.cs" t="Include" />
+            <e p="RecipientsListDataInMemory.cs" t="Include" />
+            <e p="SchedulerTasksDataInMemory.cs" t="Include" />
+            <e p="SendersDataInMemory.cs" t="Include" />
+            <e p="ServersDataInMemory.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IDataService.cs" t="Include" />
+            <e p="IMailLists.cs" t="Include" />
+            <e p="IMailMessagesData.cs" t="Include" />
+            <e p="IMailSenderService.cs" t="Include" />
+            <e p="IRecepientsData.cs" t="Include" />
+            <e p="IRecipientsListData.cs" t="Include" />
+            <e p="ISchedulerTasksData.cs" t="Include" />
+            <e p="ISendersData.cs" t="Include" />
+            <e p="IServerData.cs" t="Include" />
+          </e>
+          <e p="Linq2SQL" t="Include">
+            <e p="RecepientsDataLinq2SQL.cs" t="Include" />
+          </e>
+          <e p="SmtpMailSenderService.cs" t="Include" />
+          <e p="StringEncoder.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="MultiThread" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="ConcurencyTest.cs" t="Include" />
+        <e p="ConcurentCollection.cs" t="Include" />
+        <e p="Logger.cs" t="Include" />
+        <e p="MultiThread.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="ThreadManagment.cs" t="Include" />
+        <e p="ThreadPoolTest.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="TestPicker" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="TestPicker.csproj" t="IncludeRecursive" />
+        <e p="Window2.xaml" t="Include" />
+        <e p="Window2.xaml.cs" t="Include" />
+        <e p="Window2ViewModel.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="csvParser" t="IncludeRecursive">
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="csvParser.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="packages" t="ExcludeRecursive">
+        <e p="MSTest.TestAdapter.1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" t="Include" />
+        <e p="MSTest.TestAdapter.1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" t="Include" />
+        <e p="MSTest.TestAdapter.1.3.2/build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

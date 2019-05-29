@@ -1,0 +1,5 @@
+/home/oleg/RiderProjects/Saves/Lesson5/CSharp3Lesson5/Lesson1/csvParser/obj/Debug/.NETFramework,Version=v4.6.1.AssemblyAttribute.cs
+/home/oleg/RiderProjects/Saves/Lesson5/CSharp3Lesson5/Lesson1/csvParser/bin/Debug/csvParser.exe.mdb
+/home/oleg/RiderProjects/Saves/Lesson5/CSharp3Lesson5/Lesson1/csvParser/bin/Debug/csvParser.exe
+/home/oleg/RiderProjects/Saves/Lesson5/CSharp3Lesson5/Lesson1/csvParser/obj/Debug/csvParser.exe
+/home/oleg/RiderProjects/Saves/Lesson5/CSharp3Lesson5/Lesson1/csvParser/obj/Debug/csvParser.exe.mdb
